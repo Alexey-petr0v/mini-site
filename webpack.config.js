@@ -20,7 +20,15 @@ module.exports = {
       new HtmlWebpackPlugin({
         template: PATHS.src + '/page.pug',
         filename: 'page.html'
-    })
+    }),
+    new HtmlWebpackPlugin({
+      template: PATHS.src + '/articles.pug',
+      filename: 'articles.html'
+  }),
+  new HtmlWebpackPlugin({
+    template: PATHS.src + '/sell.pug',
+    filename: 'sell.html'
+})
     ],
   module: {
     rules: [

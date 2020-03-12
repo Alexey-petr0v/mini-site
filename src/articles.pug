@@ -1,0 +1,15 @@
+extends layout/main
+
+mixin listArticles(link, name)
+    li 
+        a(href=link).linkArticle=name
+
+block variables
+    - var pageTitle = 'articles'
+
+block content
+    .content
+        h1 Статьи
+        ul.articles
+            +listArticles("/article1.html", "Климат Южной Америки")
+            +listArticles("/article2.html", "Климат Антарктики")
