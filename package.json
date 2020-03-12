@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alexey-petr0v/FSD.git"
+    "url": "git+https://github.com/Alexey-petr0v/mini-site.git"
   },
   "author": "Alexey-petr0v <alexey-petr0v@yandex.ru>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alexey-petr0v/FSD/issues"
+    "url": "https://github.com/Alexey-petr0v/mini-site/issues"
   },
-  "homepage": "https://github.com/Alexey-petr0v/FSD#readme",
+  "homepage": "https://github.com/Alexey-petr0v/mini-site#readme",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
