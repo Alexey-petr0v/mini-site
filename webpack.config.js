@@ -8,10 +8,12 @@ const PATHS = {
 }
 
 module.exports = {
-  entry: PATHS.src + "/index.js",
+  entry: {
+    bundle: PATHS.src + "/index.js"
+  },
   output: {
+    filename: "[name].js",
     path: PATHS.dist,
-    filename: "bundle.js",
   },
   plugins: [
       new HtmlWebpackPlugin({
@@ -72,5 +74,8 @@ module.exports = {
         }
       }
     ]
+  },
+  devServer: {
+    contentBase: path.resolve(__dirname, PATHS.dist)
   }
 }
