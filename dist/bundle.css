@@ -1,20 +1,6 @@
 body {
-    margin-left: 0px;
+    margin: 0px;
 }
-body {
-    margin-top: 0px;
-}
-h1 {
-    color: red;
-}
-h3 {
-    color: red;
-}
-h2 {
-    color: red;
-}
-body{margin-right:0px}
-
 .block:not(.first){background:#000;height:200px;color:red;margin-bottom:20px}.first{background:#000;height:100px;color:blue;margin-bottom:20px}.nav{display:flow}.themes{display:flow;text-align:right}
 
 .theme1 .header{background-color:#90ee90;border:1px solid green}.theme1 .content{background-color:#90ee90;border:1px solid green}.theme1 footer .container{background-color:#90ee90;border:1px solid green}.theme2 .header{background-color:#add8e6;border:1px solid blue}.theme2 .content{background-color:#add8e6;border:1px solid blue}.theme2 footer .container{background-color:#add8e6;border:1px solid blue}.theme3 .header{background-color:#f08080;border:1px solid red}.theme3 .content{background-color:#f08080;border:1px solid red}.theme3 footer .container{background-color:#f08080;border:1px solid red}
