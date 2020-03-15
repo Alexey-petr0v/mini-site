@@ -1,0 +1,29 @@
+
+
+$bgColor: #000;
+$colorPlus: 100;
+
+.block:not(.first){
+    background: $bgColor;
+    height: 200px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.first{
+    background: $bgColor;
+    height: 100px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flow;
+}
+
+.themes {
+    display: flow;
+    text-align: right;
+}
+
+

@@ -1,0 +1,49 @@
+$background1: lightgreen;
+$border1: green;
+
+$background2: lightblue;
+$border2: blue;
+
+$background3: lightcoral;
+$border3: red;
+
+.theme1 .header{
+    background-color: $background1;
+    border: 1px solid $border1;
+}
+.theme1 .content {
+    background-color: $background1;
+    border: 1px solid $border1;
+}
+.theme1 footer .container {
+    background-color: $background1;
+    border: 1px solid $border1;
+}
+
+
+.theme2 .header{
+    background-color: $background2;
+    border: 1px solid $border2;
+}
+.theme2 .content {
+    background-color: $background2;
+    border: 1px solid $border2;
+}
+.theme2 footer .container {
+    background-color: $background2;
+    border: 1px solid $border2;
+}
+
+
+.theme3 .header{
+    background-color: $background3;
+    border: 1px solid $border3;
+}
+.theme3 .content {
+    background-color: $background3;
+    border: 1px solid $border3;
+}
+.theme3 footer .container {
+    background-color: $background3;
+    border: 1px solid $border3;
+}

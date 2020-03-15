@@ -16,3 +16,8 @@ header
         ul.nav
             for i in navLinks
                 +navLink(i.link,i.name)
+        .themes
+            h1 Темы сайта
+            input(type="radio", id="theme_button_1", value="Зеленая", name="theme")
+            input(type="radio", id="theme_button_2", value="Синяя", name="theme" checked)
+            input(type="radio", id="theme_button_3", value="Красная", name="theme")
